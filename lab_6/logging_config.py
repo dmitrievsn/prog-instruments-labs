@@ -8,7 +8,6 @@ def setup_logging():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.FileHandler("../lab_5/bank_parser.log", encoding='utf-8'),
             logging.StreamHandler(sys.stdout)
         ]
     )
