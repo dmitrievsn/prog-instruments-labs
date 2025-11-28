@@ -1,10 +1,10 @@
 from curl_cffi import requests as cffi_requests
 
 from config import BANK_CONFIGS, USER_AGENT
-from logging_config import logger
+from lab_6.logging_config import logger
 from extractors import JsonLdExtractor
-from processors import BankProcessor
-from utils import save_results_to_file, save_by_product_type, print_final_statistics
+from lab_6.processors import BankProcessor
+from lab_6.utils import save_results_to_file, save_by_product_type, print_final_statistics
 
 
 def main():

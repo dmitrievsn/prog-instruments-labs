@@ -27,7 +27,7 @@ class TestUtils:
     """Utility tests"""
 
     def test_save_results_to_file(self):
-        from utils import save_results_to_file
+        from lab_6.utils import save_results_to_file
 
         with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.json') as f:
             temp_path = f.name
@@ -97,7 +97,7 @@ class TestStatistics:
     """Statistical tests"""
 
     def test_final_statistics_calculation(self):
-        from utils import print_final_statistics
+        from lab_6.utils import print_final_statistics
 
         test_cards = [
             {'success': True, 'product_type': 'debitcards', 'bank': 'Bank A'},

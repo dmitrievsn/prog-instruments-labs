@@ -4,7 +4,7 @@ from typing import List, Dict, Set, Optional, Any
 from bs4 import BeautifulSoup
 
 from config import PRODUCT_PATTERNS, PROMOTIONAL_FIELDS
-from logging_config import logger
+from lab_6.logging_config import logger
 
 
 class JsonLdExtractor:
